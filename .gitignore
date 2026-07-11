@@ -79,3 +79,6 @@ dist/
 .DS_Store
 .worktrees/
 worktrees/
+
+# local patches
+final-diff.patch
