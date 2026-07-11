@@ -6,19 +6,19 @@
 
 <p align="center">
   <a href="https://nextjs.org/">
-    <img src="https://img.shields.shields.shields.shields.shields.io/badge/Next.js-15.1.6-black?style=for-the-badge&logo=next.js" alt="Next.js" />
+    <img src="https://img.shields.io/badge/Next.js-15.1.6-black?style=for-the-badge&logo=next.js" alt="Next.js" />
   </a>
   <a href="https://supabase.com/">
-    <img src="https://img.shields.shields.shields.shields.shields.io/badge/Supabase-Database%20%26%20Auth-3ECF8E?style=for-the-badge&logo=supabase" alt="Supabase" />
+    <img src="https://img.shields.io/badge/Supabase-Database%20%26%20Auth-3ECF8E?style=for-the-badge&logo=supabase" alt="Supabase" />
   </a>
   <a href="https://tailwindcss.com/">
-    <img src="https://img.shields.shields.shields.shields.shields.io/badge/Tailwind-CSS%203-06B6D4?style=for-the-badge&logo=tailwindcss" alt="Tailwind" />
+    <img src="https://img.shields.io/badge/Tailwind-CSS%203-06B6D4?style=for-the-badge&logo=tailwindcss" alt="Tailwind" />
   </a>
   <a href="https://ai.google.dev/">
-    <img src="https://img.shields.shields.shields.shields.shields.io/badge/Gemini%20AI-Flash%201.5-4F46E5?style=for-the-badge&logo=google-gemini" alt="Gemini" />
+    <img src="https://img.shields.io/badge/Gemini%20AI-Flash%201.5-4F46E5?style=for-the-badge&logo=google-gemini" alt="Gemini" />
   </a>
   <a href="https://resend.com/">
-    <img src="https://img.shields.shields.shields.shields.shields.io/badge/Resend-Email%20Delivery-black?style=for-the-badge&logo=resend" alt="Resend" />
+    <img src="https://img.shields.io/badge/Resend-Email%20Delivery-black?style=for-the-badge&logo=resend" alt="Resend" />
   </a>
 </p>
 
