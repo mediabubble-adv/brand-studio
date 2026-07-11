@@ -30,4 +30,11 @@ describe('generatePostContent', () => {
     expect(result.caption_en).toBe("Unleash your potential today!")
     expect(result.image_prompt).toContain("sunrise")
   })
+
+  it('respects brand memory successful and avoid keywords', async () => {
+    const profile = { languages: ['en'], dialects: [], tone_keywords: [] }
+    const memory = { successful_keywords: ['eid', 'offer'], avoid_keywords: ['summer'] }
+    const result = await generatePostContent('Eid campaign', profile, memory)
+    expect(result.caption_en).toBe("Unleash your potential today!")
+  })
 })
