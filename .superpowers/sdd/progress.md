@@ -5,7 +5,7 @@ Started: 2026-07-11
 ## Tasks
 - [x] Task 1: Project Scaffold
 - [x] Task 2: Supabase Database Schema
-- [ ] Task 3: Authentication System
+- [x] Task 3: Authentication System
 - [ ] Task 4: Agency Layout & Navigation
 - [ ] Task 5: Brand Onboarding — Upload Form
 - [ ] Task 6: Brand Profile Editor
