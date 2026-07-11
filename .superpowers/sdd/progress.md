@@ -1,5 +1,5 @@
 # SDD Progress Ledger
-Project: MediaBubble Brand Studio — Plan 2: Content Engine
+Project: MediaBubble Brand Studio — Plan 3: Campaign & Publishing
 Started: 2026-07-11
 
 ## Plan 1: Foundation (Complete)
@@ -16,3 +16,10 @@ Started: 2026-07-11
 - [x] Task 3: Canvas Composer Editor (Fabric.js)
 - [x] Task 4: Multi-Format Asset Exporter (ZIP exporter)
 - [x] Task 5: Grid Planner Dashboard (interactive grid)
+
+## Plan 3: Campaign & Publishing (Complete)
+- [x] Task 1: Campaign Planner (Calendar & Table View)
+- [x] Task 2: Team Workflow & Gated Approvals
+- [x] Task 3: Client Portal Dashboard
+- [x] Task 4: Gated Client Reporting (Resend + PDF)
+- [x] Task 5: Platform Publishing Queue Helper
