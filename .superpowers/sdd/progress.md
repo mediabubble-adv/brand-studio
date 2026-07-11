@@ -8,4 +8,4 @@ Started: 2026-07-11
 - [x] Task 3: Authentication System
 - [x] Task 4: Agency Layout & Navigation
 - [x] Task 5: Brand Onboarding — Upload Form
-- [ ] Task 6: Brand Profile Editor
+- [x] Task 6: Brand Profile Editor
