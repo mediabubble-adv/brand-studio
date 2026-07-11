@@ -1,25 +1,10 @@
 # SDD Progress Ledger
-Project: MediaBubble Brand Studio — Plan 3: Campaign & Publishing
+Project: MediaBubble Brand Studio — Plan 4: Social Connections
 Started: 2026-07-11
 
-## Plan 1: Foundation (Complete)
-- [x] Task 1: Project Scaffold
-- [x] Task 2: Supabase Database Schema
-- [x] Task 3: Authentication System
-- [x] Task 4: Agency Layout & Navigation
-- [x] Task 5: Brand Onboarding — Upload Form
-- [x] Task 6: Brand Profile Editor
-
-## Plan 2: Content Engine (Complete)
-- [x] Task 1: Content Generation API (Gemini + arabic-skill)
-- [x] Task 2: Image Generation API (SDXL / Imagen)
-- [x] Task 3: Canvas Composer Editor (Fabric.js)
-- [x] Task 4: Multi-Format Asset Exporter (ZIP exporter)
-- [x] Task 5: Grid Planner Dashboard (interactive grid)
-
-## Plan 3: Campaign & Publishing (Complete)
-- [x] Task 1: Campaign Planner (Calendar & Table View)
-- [x] Task 2: Team Workflow & Gated Approvals
-- [x] Task 3: Client Portal Dashboard
-- [x] Task 4: Gated Client Reporting (Resend + PDF)
-- [x] Task 5: Platform Publishing Queue Helper
+## Tasks
+- [ ] Task 1: Database Updates (Migration SQL)
+- [ ] Task 2: Meta Graph API client (meta.ts)
+- [ ] Task 3: Google Ads Asset Uploader (google-ads.ts)
+- [ ] Task 4: Scheduler Worker Queue (route.ts update)
+- [ ] Task 5: Integrations Settings UI (IntegrationsForm.tsx)
