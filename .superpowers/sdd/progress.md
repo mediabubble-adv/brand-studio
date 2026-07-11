@@ -1,10 +1,9 @@
 # SDD Progress Ledger
-Project: MediaBubble Brand Studio — Plan 4: Social Connections
+Project: MediaBubble Brand Studio — Plan 5: Strategic Intelligence
 Started: 2026-07-11
 
 ## Tasks
-- [x] Task 1: Database Updates (Migration SQL)
-- [x] Task 2: Meta Graph API client (meta.ts)
-- [x] Task 3: Google Ads Asset Uploader (google-ads.ts)
-- [x] Task 4: Scheduler Worker Queue (route.ts update)
-- [x] Task 5: Integrations Settings UI (IntegrationsForm.tsx)
+- [ ] Task 1: Database Updates (Migration SQL)
+- [ ] Task 2: Brand AI Memory Pipeline (generate-content.ts & API endpoint)
+- [ ] Task 3: Competitor Monitoring Client (competitor.ts)
+- [ ] Task 4: Client Ratings & Reviews Interface (FeedbackStars.tsx)
