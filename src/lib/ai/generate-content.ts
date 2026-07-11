@@ -3,15 +3,26 @@ import { generateDialectCopy } from '../arabic-skill/client'
 
 export async function generatePostContent(
   prompt: string,
-  brandProfile: { languages: string[]; dialects: string[]; tone_keywords: string[] }
+  brandProfile: { languages: string[]; dialects: string[]; tone_keywords: string[] },
+  brandMemory?: { successful_keywords: string[]; avoid_keywords: string[] }
 ) {
   const genAI = new GoogleGenerativeAI(process.env.GOOGLE_AI_API_KEY || 'dummy_key')
   const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' })
 
+  let memoryContext = ''
+  if (brandMemory) {
+    if (brandMemory.successful_keywords?.length > 0) {
+      memoryContext += `\nPrefer including these successful terms: ${brandMemory.successful_keywords.join(', ')}`
+    }
+    if (brandMemory.avoid_keywords?.length > 0) {
+      memoryContext += `\nDo NOT use these terms: ${brandMemory.avoid_keywords.join(', ')}`
+    }
+  }
+
   const systemContext = `
     You are an expert social media strategist. Generate social media copy for a brand with the following attributes:
     Languages: ${brandProfile.languages.join(', ')}
-    Tone: ${brandProfile.tone_keywords.join(', ')}
+    Tone: ${brandProfile.tone_keywords.join(', ')}${memoryContext}
     
     Format your response as a valid JSON object matching:
     {
