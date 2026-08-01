@@ -25,7 +25,18 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ data: null, error: 'Brand profile not found' }, { status: 404 })
     }
 
-    const content = await generatePostContent(briefTopic, profile)
+    // Fetch Brand AI Memory
+    const { data: memory } = await supabaseAdmin
+      .from('brand_memories')
+      .select('successful_keywords, avoid_keywords')
+      .eq('brand_id', brandId)
+      .single()
+
+    const content = await generatePostContent(
+      briefTopic,
+      profile,
+      memory || { successful_keywords: [], avoid_keywords: [] }
+    )
     return NextResponse.json({ data: content, error: null })
   } catch (err: unknown) {
     const msg = err instanceof Error ? err.message : 'Internal Server Error'
